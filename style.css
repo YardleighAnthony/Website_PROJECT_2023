@@ -30,8 +30,33 @@ nav ul li a{
     text-decoration: none;
     color: black;
     font-weight: bold;
+
+}
+
+nav ul li a:hover{
+    color: rgba(255,220,186,255);
     
 }
+.underline-hover-effect{
+    display:inline-block;
+    padding-bottom: 0.25rem;
+    position: relative;
+}
+.underline-hover-effect::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom:0;
+    width:0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.25s ease-out;
+}
+
+.underline-hover-effect:hover::before{
+    width:100%;
+}
+
 .logo{
     width: 30%;
     height: 20%;
