@@ -1,47 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=DM+Sans&family=Sevillana&display=swap');
-
 *{
     margin: 0;
     padding: 0;
-    /*font-family: sans-serif;*/
-    font-family: 'Alumni Sans Collegiate One', sans-serif;
-    font-family: 'DM Sans', sans-serif;
+    font-family: sans-serif;
 }
 
-.hero{
+header{
+    display:grid;
+    margin-top: 5px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 110%;
+}
+
+.mainWrapper{
     position: relative;
     width:  100%;
     background:#ffffff;
     height: 100vh;
 }
 
-nav {
+/*nav {
     display: flex;
     width: 84%;
     margin: auto;
     padding: 20px 0;
     align-items: center;
     justify-content: space-between;
-}
+}*/
 
+nav{
+    margin-left: 20px;
+    margin-top: 10px;
+}
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
-
+    margin: 30px 30px;
 }
 
 nav ul li a{
     text-decoration: none;
     color: black;
     /*font-weight: bold;*/
-
+    transition: all 0.35s ease-in-out;
 }
 
 nav ul li a:hover{
-    background-color:  rgba(255,220,186,255);
-    
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+   
 }
+/*.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }*/
 .underline-hover-effect{
     display:inline-block;
     padding-bottom: 0.25rem;
@@ -54,7 +64,6 @@ nav ul li a:hover{
     bottom:0;
     width:0;
     height: 2px;
-    background-color: black;
     transition: width 0.25s ease-out;
 }
 
@@ -63,12 +72,19 @@ nav ul li a:hover{
 }
 
 .logo{
-    width: 30%;
-    height: 20%;
+    width: 50%;
+    height: 100%;
+    margin-left: 5%
+}
+.two-col{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 550%;
+    margin-top: 20px;
 }
 .Name-desc{
     margin-left:10%;
-    margin-top: 11%;    
+    margin-top: 25%;    
 }
 
 .Name-desc h1{
@@ -81,32 +97,32 @@ nav ul li a:hover{
     width: 45%;
     height: 80%;
     position: absolute;
-    bottom: 35%;
-    right:150px;
-}
-.blob{
-    width: 130%;
-    height: 160%;
-}
-.alisha{
-    width: 60%;
-    height: 90%;
-    position: absolute;
-    left:60%;
-    top:45%;
     bottom: 0;
-    transform: translateX(-50%);
-    transition: bottom 1s, left 1s;
+    right:65px;
 }
-
-/*.image img alisha{
+.image img{
     height: 100%;
     position: absolute;
     left:50%;
-    bottom: 0;
+    bottom:0;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
+}
+.image:hover .blob{
+    bottom:40px;
+}
+.image:hover .alisha{
+    left:45%
+}
+.blob{
+    width: 100%;
+}
+.images:hover .blob{
+    bottom: 40px;
+}
+.images:hover .alisha{
+    left:45%;
+}
 
-}*/
 
 
