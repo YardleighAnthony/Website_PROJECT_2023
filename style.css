@@ -6,7 +6,6 @@
     /*font-family: sans-serif;*/
     font-family: 'Alumni Sans Collegiate One', sans-serif;
     font-family: 'DM Sans', sans-serif;
-    font-family: 'Sevillana', cursive;
 }
 
 .hero{
@@ -67,3 +66,47 @@ nav ul li a:hover{
     width: 30%;
     height: 20%;
 }
+.Name-desc{
+    margin-left:10%;
+    margin-top: 11%;    
+}
+
+.Name-desc h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+.image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 35%;
+    right:150px;
+}
+.blob{
+    width: 130%;
+    height: 160%;
+}
+.alisha{
+    width: 60%;
+    height: 90%;
+    position: absolute;
+    left:60%;
+    top:45%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+/*.image img alisha{
+    height: 100%;
+    position: absolute;
+    left:50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+
+}*/
+
+
