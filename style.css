@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=DM+Sans&family=Sevillana&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    /*font-family: sans-serif;*/
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Sevillana', cursive;
 }
 
 .hero{
@@ -24,17 +29,18 @@ nav ul li{
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
+
 }
 
 nav ul li a{
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    /*font-weight: bold;*/
 
 }
 
 nav ul li a:hover{
-    color: rgba(255,220,186,255);
+    background-color:  rgba(255,220,186,255);
     
 }
 .underline-hover-effect{
