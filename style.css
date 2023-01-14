@@ -138,6 +138,42 @@ nav ul li{
     margin: 30px 30px;
 }*/
 
+.hero-text span a{
+    text-decoration: none;
+    padding: 0 0.7em;
+    color: black;
+    text-decoration: underline;
+    transition: all 0.35s ease-in-out;
+}
+
+.hero-text span a:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    text-decoration: none;
+    color: rgb(65, 204, 250);
+}
+
+.underline-hover-effects{
+    display:inline-block;
+    padding-bottom: 0.25rem;
+    position: relative;
+
+}
+.underline-hover-effects::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom:0;
+    width:0;
+    height: 1px;
+    transition: width 0.25s ease-out;
+    
+}
+
+.underline-hover-effects:hover::before{
+    width:100%;
+}
 nav ul li a{
     text-decoration: none;
     color: black;
