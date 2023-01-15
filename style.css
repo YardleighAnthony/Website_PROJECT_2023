@@ -508,7 +508,22 @@ form .input-group1{
     transform: scale(1.3);
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
+}
+
+.underline-hover-effects{
+    display:inline-block;
+    position: relative;
+
+}
+.form-submit-button::before{
+    content: "";
+    position: absolute;
     transition: all 0.35s ease-out;
+    
+}
+
+.form-submit-button:hover::before{
+    width:100%;
 }
 tr td:first-child{
     padding-bottom: 30px;
