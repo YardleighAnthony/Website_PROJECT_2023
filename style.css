@@ -508,8 +508,18 @@ form .input-group1{
     transform: scale(1.3);
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
-    transition: all 0.35s ease-in-out;
-    transition: width 0.25s ease-out;
+    transition: all 0.35s ease-out;
+}
+
+.form-submit-button{
+    display:inline-block;
+    position: relative;
+
+}
+.form-submit-button::before{
+    content: "";
+    position: absolute;
+    transition: width 0.25s ease-out;    
 }
 tr td:first-child{
     padding-bottom: 30px;
