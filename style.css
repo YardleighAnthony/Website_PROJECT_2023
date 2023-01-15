@@ -473,21 +473,22 @@ form .input-group{
 
 }
 
-.input-group textarea:focus ~ label,
+/*.input-group textarea:focus ~ label,
 .input-group textarea:valid ~ label{
     top:-5px;
     color:black;
-}
+}*/
 
 .input-group input:focus ~ span::before,
 .input-group input:valid ~ span::before{
     width:100%;
 }
 
-.input-group textarea:focus ~ span::before,
+/*.input-group textarea:focus ~ span::before,
 .input-group textarea:valid ~ span::before{
     width:100%;
-}
+}*/
+
 button{
     width:20%;
     height: 35px;
