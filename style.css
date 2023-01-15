@@ -426,7 +426,7 @@ form .input-group{
     border-bottom: 2px solid #adadad;
     margin: 30px 0;
 }
-.input-group textarea{
+/*.input-group textarea{
     width:100%;
     padding: 0 5px;
     height:40px;
@@ -435,7 +435,7 @@ form .input-group{
     background: none;
     outline: none;
     transition: .5s;
-}
+}*/
 .input-group input{
     width:100%;
     padding: 0 5px;
