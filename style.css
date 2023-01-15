@@ -421,7 +421,7 @@ label{
     margin-bottom: 6px;
     display: block;
 }
-.input-group{
+form .input-group{
     position: relative;
     border-bottom: 2px solid #adadad;
     margin: 30px 0;
