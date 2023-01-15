@@ -436,7 +436,7 @@ form .input-group1{
     outline: none;
     transition: .5s;
 }*/
-.input-group {
+.input-group textarea{
     width:100%;
 }
 .input-group1 input{
