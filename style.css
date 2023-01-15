@@ -11,7 +11,16 @@
     color: black;
     font-weight: bold;
 }
+.font-3{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
 
+.font-4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: black;
+}
 html{
     box-sizing: border-box;
     font-size:16px;
@@ -19,12 +28,14 @@ html{
 
 *, *:before, *:after{
     box-sizing: inherit;
+    
 }
 
 body, h1, h2, h3, h4, h5, p, ol, ul{
     margin: 0;
     padding: 0; 
     font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
 }
 body{
     height: 2000px;
@@ -140,7 +151,6 @@ nav ul li{
 
 .hero-text span a{
     text-decoration: none;
-    padding: 0 0.7em;
     color: black;
     text-decoration: underline;
     transition: all 0.35s ease-in-out;
@@ -367,4 +377,69 @@ nav ul li a:hover{
 .check{
     width: 12%;
     height: 12%;
+}
+
+/*This is styling for the contact me form*/
+
+.container{
+    width:80%;
+    margin: 50px auto;
+
+}
+.contact-box{
+    display:flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background-color: rgb(124, 205, 252);
+}
+.container p{
+    margin-bottom: 10px;
+}
+/*.input-row{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}*/
+/*.input-row .input-group{
+    flex-basis: 45%;    
+}*/
+input{
+    /*width:100%;*/
+    padding-bottom: 5px;
+}
+textarea{
+    padding-bottom: 5px;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+}
+form .input-group{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+.input-group input{
+    width:100%;
+    padding: 0 5px;
+    height:40px;
+    font-size:16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.input-group label{
+    position: absolute;
+    top:50%;
+    left: 5px; 
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none ;
 }
