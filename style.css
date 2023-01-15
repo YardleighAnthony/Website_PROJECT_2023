@@ -397,8 +397,11 @@ nav ul li a:hover{
 }
 .contact-right{
     flex-basis: 40%;
-    padding: 20px;
     background-color: rgb(124, 205, 252);
+}
+.checking{
+    width: 12%;
+    height: 12%;
 }
 .container p{
     margin-bottom: 10px;
