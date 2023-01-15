@@ -437,6 +437,7 @@ form .input-group1{
     transition: .5s;
 }*/
 .input-group textarea{
+    padding-top: 10px;
     width:100%;
 }
 .input-group1 input{
