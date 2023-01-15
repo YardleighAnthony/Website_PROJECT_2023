@@ -421,7 +421,7 @@ label{
     margin-bottom: 6px;
     display: block;
 }
-form .input-group{
+form .input-group1{
     position: relative;
     border-bottom: 2px solid #adadad;
     margin: 30px 0;
@@ -436,7 +436,7 @@ form .input-group{
     outline: none;
     transition: .5s;
 }*/
-.input-group input{
+.input-group1 input{
     width:100%;
     padding: 0 5px;
     height:40px;
@@ -445,7 +445,7 @@ form .input-group{
     background: none;
     outline: none;
 }
-.input-group label{
+.input-group1 label{
     position: absolute;
     top:50%;
     left: 5px; 
@@ -456,7 +456,7 @@ form .input-group{
     transition: .5s;
 
 }
-.input-group span::before{
+.input-group1 span::before{
     content:'';
     position: absolute;
     top:40px;
@@ -466,8 +466,8 @@ form .input-group{
     background-color: rgb(124, 205, 252);
     transition: .7s;
 }
-.input-group input:focus ~ label,
-.input-group input:valid ~ label{
+.input-group1 input:focus ~ label,
+.input-group1 input:valid ~ label{
     top:-5px;
     color: black;
 
@@ -479,8 +479,8 @@ form .input-group{
     color:black;
 }*/
 
-.input-group input:focus ~ span::before,
-.input-group input:valid ~ span::before{
+.input-group1 input:focus ~ span::before,
+.input-group1 input:valid ~ span::before{
     width:100%;
 }
 
