@@ -166,32 +166,56 @@
         <div class="contact-box">
             <div class="contact-left">
                 <h3>Get in touch with me</h3>
-                <form action="">
+                <form action="https://formsubmit.co/7979cab5250b04a9fd563b2fe5e4c2f4 " method="POST">
                     <section class="input-row">
                         <section class="input-group">
                             <input type="text" name="Fname" id="fname" required>
+                            <span></span>
                             <label for="name"> Name</label>
                         </section>
                         <section class="input-group">
                             <input type ="email" name="Email" id="email" required>
+                            <span></span>
                             <label for="name">Enter your email</label>
                         </section>
                     </section>
                     <section class="input-row">
                         <section class="input-group">
                             <textarea name="message" id="Message" cols="50" rows="1" required></textarea>
+                            <span></span>
                             <label for="name">Type your message here...</label>
                         </section>
                     </section>
 
-                    <input type="submit" value="Send">
+                    <button type="submit" value="Send">Submit</button>
+                    <input type="hidden" name="_next" value="https://https://ablom.netlify.app">
+                    <input type="hidden" name="_subject" value="New email!">
                 </form>
             </div>
             <div class="contact-right">
                 <h3>Contact information</h3>
+                <br>
+                <table>
+                    <tr>
+                        <td> <img src="/images/email.png" alt="" srcset="" class = "check"> Email</td>
+                        <td>contactus@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td><img src="/images/telephone.png" alt="" srcset="" class = "check"> Phone</td>
+                        <td>+27 64 324 1033</td>
+                    </tr>
+                    <tr>
+                        <td><img src="/images/location.png" alt="" srcset="" class = "check"> Address</td>
+                        <td>212 Ground floor, 7th cross <br>
+                            0182
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
+
+    <br><br><br><br>
 
     <!--Jquery to make all components interactive-->
     <script src="https://code.jquery.com/jquery-3.6.3.js"></script>

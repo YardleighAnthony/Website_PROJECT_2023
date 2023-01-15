@@ -384,14 +384,15 @@ nav ul li a:hover{
 .container{
     width:80%;
     margin: 50px auto;
-
 }
 .contact-box{
     display:flex;
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 .contact-left{
     flex-basis: 60%;
     padding: 40px 60px;
+    background-color: rgb(247, 247, 247);
 }
 .contact-right{
     flex-basis: 40%;
@@ -425,6 +426,16 @@ form .input-group{
     border-bottom: 2px solid #adadad;
     margin: 30px 0;
 }
+.input-group textarea{
+    width:100%;
+    padding: 0 5px;
+    height:40px;
+    font-size:16px;
+    border: none;
+    background: none;
+    outline: none;
+    transition: .5s;
+}
 .input-group input{
     width:100%;
     padding: 0 5px;
@@ -441,5 +452,52 @@ form .input-group{
     color: #adadad;
     transform: translateY(-50%);
     font-size: 16px;
-    pointer-events: none ;
+    pointer-events: none;
+    transition: .5s;
+
+}
+.input-group span::before{
+    content:'';
+    position: absolute;
+    top:40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(124, 205, 252);
+    transition: .7s;
+}
+.input-group input:focus ~ label,
+.input-group input:valid ~ label{
+    top:-5px;
+    color: black;
+
+}
+
+.input-group textarea:focus ~ label,
+.input-group textarea:valid ~ label{
+    top:-5px;
+    color:black;
+}
+
+.input-group input:focus ~ span::before,
+.input-group input:valid ~ span::before{
+    width:100%;
+}
+
+.input-group textarea:focus ~ span::before,
+.input-group textarea:valid ~ span::before{
+    width:100%;
+}
+button{
+    width:20%;
+    height: 35px;
+    border: none;
+    padding: 2px;
+    border-radius: 100px;
+    background-color: rgb(124, 205, 252);  
+    box-shadow: 0px 5px 15px 0px  rgb(124, 205, 252);  
+}
+
+tr td:first-child{
+    padding-bottom: 30px;
 }
