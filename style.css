@@ -515,10 +515,6 @@ table tr{
 table tr td{
     border: 1px solid black;
 }
-.checking{
-    width: 12%;
-    height: 12%;
-}
 .min{
    width: 25px;
 }
