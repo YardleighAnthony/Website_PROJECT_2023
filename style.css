@@ -520,5 +520,5 @@ table tr td{
 }
 .move{
     position: relative;
-    top:10px;
+    bottom:10px;
 }
