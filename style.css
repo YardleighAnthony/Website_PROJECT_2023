@@ -511,3 +511,7 @@ form .input-group1{
 tr td:first-child{
 
 }
+
+table tr{
+    border: 1ps solid black;
+}
