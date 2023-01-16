@@ -514,6 +514,7 @@ table tr{
 }
 table tr td{
     border: 1px solid black;
+    padding-bottom: 10px;
 }
 .min{
    width: 25px;
