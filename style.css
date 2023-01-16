@@ -518,3 +518,7 @@ table tr td{
 .min{
    width: 25px;
 }
+.move{
+    position: relative;
+    top:10px;
+}
