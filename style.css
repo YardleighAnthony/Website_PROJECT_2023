@@ -400,10 +400,7 @@ nav ul li a:hover{
     padding: 20px;
     background-color: rgb(124, 205, 252);
 }
-.checking{
-    width: 12%;
-    height: 12%;
-}
+
 .container p{
     margin-bottom: 10px;
 }
@@ -517,4 +514,11 @@ table tr{
 }
 table tr td{
     border: 1px solid black;
+}
+.checking{
+    width: 12%;
+    height: 12%;
+}
+.min{
+    padding-right: 0px;
 }
