@@ -510,10 +510,8 @@ tr td:nth-child(2){
 }
 
 table tr{
-    border: 1px solid black;
 }
 table tr td{
-    border: 1px solid black;
     padding-bottom: 10px;
 }
 .min{
